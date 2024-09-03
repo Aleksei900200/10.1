@@ -1,0 +1,35 @@
+button {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 5px 0;
+}
+.btn-text {
+  margin-right: 7px;
+}
+.btn-icon_on .btn-icon_off {
+  margin-top: 3px;
+}
+.bi-arrow-down-left-circle-fill {
+  display: block;
+}
+.bi-arrow-down-left-circle {
+  display: block;
+}
+
+.j-btn-test.button--toggle .bi-arrow-down-left-circle-fill {
+  display: none;
+}
+
+.j-btn-test.button--toggle .bi-arrow-down-left-circle {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
